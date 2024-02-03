@@ -1,0 +1,18 @@
+.marqueeContainer {
+    position: fixed;
+    animation: moveUpDown 1s linear infinite;
+  }
+  
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(5%);
+    }
+    50% {
+      transform: translateY(-10px); /* Adjust the distance as needed */
+    }
+  }
+  
+  .marqueeText {
+    /* Add styles for the marquee text if needed */
+  }
+  

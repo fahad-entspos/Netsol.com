@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background-color: white;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+
+
+
+/* <div className=" mt-[720px] sm:mt-[530px]  md:mt-[550px] lg:mt-[700px] text-center "> */
+
+
+
+/* <div  
+className={` ${ activecard === "card1" ? " mt-[1400px]" : " mt-[950px]"}`}>
+  <h1 className=" font-AkkuratLight text-5xl mr-0 xl:mr-12 text-black text-center">Our Edge</h1>
+
+</div> */
